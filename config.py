@@ -7,22 +7,22 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = API_ID
-API_HASH = "API_HASH"
+API_ID = 21324248
+API_HASH = "f061004c1f6e54e817d3e16d3e5017a7"
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = "BOT_TOKEN"
+BOT_TOKEN = "7570580807:AAEQf52Sf2ProYoM7i10lVsu306A2s5JjvI"
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = "MONGO_DB_URI"
+MONGO_DB_URI = "mongodb+srv://chaoutmalyash:pVpJyR4M18sTKaIg@cluster0.ynpeq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = LOG_GROUP_ID
+LOG_GROUP_ID = -1002149102275
 
 # Get this value from @ultron2_robot on Telegram by /id
-OWNER_ID = OWNER_ID
+OWNER_ID = 6780779650
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -39,8 +39,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = "https://t.me/thanos_pro"
-SUPPORT_GROUP = "https://t.me/thanosprosss"
+SUPPORT_CHANNEL = "https://t.me/botcrrating"
+SUPPORT_GROUP = "https://t.me/botcrrating"
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -62,7 +62,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
 
 
 # Get your pyrogram v2 session from Replit
-STRING1 = "STRING_SESSION"
+STRING1 = ""BQFFYdgAO9NrKJvIHabhWGiSvHmNkHEIUbySheHY9WW7wAfSpFh3Y4gcOU4uagGDGHlMw79aYvIPIfUrnQOty-wBi2vaDWKqxuq17Eph54_6ZGNzTK0cEhK7vIKUEmVGtjCdHZBXfPfaXYfGBg046vA37REP-21miXavdIOYQw0UJvHPUayjc6T1sKSQB9boO3K_7zmhS9mv5Bw8GxRCcyqnX2hbtF4bjXkOb4bSqBvdqx8qCekkoiSJLuu0e89dIfF51t9qK8FeKwSbaDziSl0AMPueTrAuWW5TKCJcUKYto-Ber_tGjJ3MYuoyiXFCKL7i67SFG-ghRIOsiuoKQJuDeq2TUQAAAAGUKnyCAA"
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
